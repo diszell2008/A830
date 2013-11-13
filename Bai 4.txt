@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+	//Khai Bao
+	int a, b, c, d, e,N1,N2,N3,N4,N5;
+
+	//Nhap Lieu
+	printf("Nhap a:");
+	scanf("%d", &a);
+
+	printf("Nhap b:");
+	scanf("%d", &b);
+
+	printf("Nhap c:");
+	scanf("%d", &c);
+
+	printf("Nhap d:");
+	scanf("%d", &d);
+
+	printf("Nhap e:");
+	scanf_s("%d", &e);
+	printf("\n");
+	printf("So Le La:");
+	//So le
+{
+	if (a % 2 | 0) printf("%d ", a);
+	if (b % 2 | 0) printf("%d ", b);
+	if (c % 2 | 0) printf("%d ", c);
+	if (d % 2 | 0) printf("%d ", d);
+	if (e % 2 | 0) printf("%d ", e);
+
+	else printf("");
+}
+	printf("\n");
+	// So Chan
+	printf("Tong Cac So Chan La:");
+	{
+		if (a % 2 == 0) N1 = a; else N1 = 0;
+		if (b % 2 == 0) N2 = b; else N2 = 0;
+		if (c % 2 == 0) N3 = c; else N3 = 0;
+		if (d % 2 == 0) N4 = d; else N4 = 0;
+		if (e % 2 == 0) N5 = e; else N5 = 0;
+		if (N1+N2+N3+N4+N5 % 2 == 0) printf("Khong chan khong le");
+		else printf("%d", N1 + N2 + N3 + N4 + N5);;
+	}
+	getch();
+}
+
+
