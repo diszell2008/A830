@@ -985,10 +985,10 @@ case 3:
 	wdb[1] = 23;
 	break;
 case 2:
-	wdb[1] = 15;
+	wdb[1] = 14;
 	break;
 case 1:
-	wdb[1] = 8;
+	wdb[1] = 5;
 	break;
 case 0:
 	wdb[1] = 0;
